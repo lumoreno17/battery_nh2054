@@ -8,7 +8,7 @@ from battery_nh2054.msg import Battery
 
 def BatteryInfo():
 
-	s = serial.Serial('/dev/ttyACM1', 9600)
+	s = serial.Serial('/dev/stml4', 9600)
 
 	s.close()
 
